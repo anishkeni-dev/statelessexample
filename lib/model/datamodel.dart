@@ -10,7 +10,5 @@ class UserModel with ChangeNotifier{
   Map<String, dynamic> toMap() => {
     "name": name,
   };
-
-
 }
 

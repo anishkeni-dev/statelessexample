@@ -7,7 +7,7 @@ import 'model/datamodel.dart';
 void main() {
   runApp(
       MultiProvider(
-        providers: [ChangeNotifierProvider<UserModel>(create: (_) => UserModel(name: ''))],
+        providers: [ChangeNotifierProvider<UserModel>(create: (context) => UserModel(name: ''))],
         child: MyApp(),
       ));
 }
